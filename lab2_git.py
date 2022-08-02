@@ -73,7 +73,8 @@ def get_rand():
     """TODO: Add your code here 
         Hint: Using random.randint() function.
     """
-    my_randint = 0
+    
+    my_randint = random.random(0, 100)
     return my_randint
 
 
