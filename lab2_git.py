@@ -73,8 +73,7 @@ def get_rand():
     """TODO: Add your code here 
         Hint: Using random.randint() function.
     """
-    my_randint = np.random.randint(0, 100)
-    return my_randint
+   
 
 
 def toss_coin():
