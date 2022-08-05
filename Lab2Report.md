@@ -77,14 +77,61 @@
     - How to generate and add SSH keys to GitHub
 ---
 ## **Hands on tasks (Student A):**
-  1. Create a repository on GitHub and clone it:
+  1. **Create a repository on GitHub and clone it:**
 
       ![Repo](Repository.png)
       ![Clone-Repo](clone.png)
   
-  2. Activating a virtual environment, generating a requirements file and adding the [startup project](Cs-235-Lab-2/lab2_git.py) to the repository:
+  2. **Activating a virtual environment, generating a requirements file and adding the [startup project](Cs-235-Lab-2/lab2_git.py) to the repository:**
 
       ![setting-up-ve](CreateVm.png)
   
-  3. 
+  3. **Stage and commit changes to the main branch of the repository** 
+          
+       - **Staged and commited files :**
+
+        ![stage-commit](StageandCommit.png)
         
+      - **Pushed changes to the remote repo**
+        
+        ![push](gitpush.png) 
+  
+  4. **Create a new branch, modify the code on the branch and merge changes:**
+
+      - **Creating and switching to branch rand:**
+
+        ![branch-creation](Branch.png)
+      
+      - **I implemented the getRand() function in the rand branch:**
+        ```python
+          def get_rand():
+      
+          my_randint = np.random.randint(0, 100)
+          return my_randint
+          ```
+        - Initally I wasn't able to run my code because the interpreter count find a module calle numpy.
+
+          !["Error"](numpyNotFound.png)
+
+        - The reason for this is because I wasn't working in the virtual environement where I had previously downloaded numpy. So after activating the environment I was able to run my code:
+          ![errorFixed](workingcode.png)
+       
+      - **Then I staged, commit and pushed it to the remote repository**:
+
+        ![push-Rand](pushRandBranch.png)
+      
+      - **Then I merged it with my main branch**
+        
+        I resolved a merge conflict I encountered but managed to resolve it and push my changes.  
+      
+        ![push-main](pushMainBranch.png)
+
+  5. **Delete Branch** 
+
+      I delete the branch using:
+      
+      
+
+  
+  
+  
