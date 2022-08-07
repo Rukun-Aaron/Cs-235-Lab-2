@@ -4,7 +4,7 @@
 
   - [Notes](#what-is-git)
   - [Reflection](#reflection)
-  - [Tasks](#4-debugging-questions-and-exercises)
+  - [Tasks](#Student-A-Tasks)
 ---
 ## **What is git?**
 
@@ -76,7 +76,7 @@
     - What forking is and how to create pull requests. 
     - How to generate and add SSH keys to GitHub
 ---
-## **Hands on tasks (Student A):**
+## **Student A Tasks:**
   1. **Create a repository on GitHub and clone it:**
 
       ![Repo](Repository.png)
@@ -129,9 +129,30 @@
   5. **Delete Branch** 
 
       I delete the branch using:
-      
-      
 
+        ![delete](delete.png)
   
+  6. **Answer the following questions**
+    
+    Question 1:
+
+    In a scenario, where you work with others as a team. You wrote some code 
+    using the lab machine, but the code isn't working. You decide to continue 
+    working on the code from home. What's the best way to commit your unfinished code
+    to GitHub without interrupt others? What commands do you need to achieve that?
+
+    Answer:
+    The best way to commit the unfinished code to GitHub is by creating and publishing your changes to new temporary branch that is seperate from the main / branch development was occuring on.
+
+    Question 2:
+
+    Explain the difference between merge and fork. Give an example for each use case.
+    
+    Answer: 
+
+    Merging is the way that Git & GitHub merges two seperate deveopment histories into one. Ussually Usually when developing software, there are multiple branches that team members work on to fix bugs, add new features etc; when one of these features is ready to be added to the main branch, the feature branch and the main branch are merged together. Merging is mostly done between branches, but can also be done between repositories. 
+
+
+    Forking is the act of "forking" a copy of someones repository onto your account, this allows you to, after cloning it,  make any changes to the repository without effecting the original repository. After making your changes, you can create a pull request  to the owner to merge your changes with the original repo.
   
   
